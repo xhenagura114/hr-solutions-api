@@ -1,0 +1,16 @@
+{
+    "name": "SelfServiceModule",
+    "alias": "selfservicemodule",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\SelfServiceModule\\Providers\\SelfServiceModuleServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/selfservicemodule",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\SelfServiceModule\\Providers\\SelfServiceModuleServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\SelfServiceModule\\": ""
+        }
+    }
+}

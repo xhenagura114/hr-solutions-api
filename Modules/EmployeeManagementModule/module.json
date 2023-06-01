@@ -1,0 +1,16 @@
+{
+    "name": "EmployeeManagementModule",
+    "alias": "employeemanagementmodule",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\EmployeeManagementModule\\Providers\\EmployeeManagementModuleServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

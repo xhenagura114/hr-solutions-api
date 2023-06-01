@@ -1,0 +1,16 @@
+{
+    "name": "SystemSettingsModule",
+    "alias": "systemsettingsmodule",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\SystemSettingsModule\\Providers\\SystemSettingsModuleServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}
