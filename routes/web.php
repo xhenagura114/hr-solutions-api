@@ -13,6 +13,10 @@
 
 Route::get('/login', 'HomeController@login');
 Route::post("authenticate", 'AuthController@authenticate')->name('module.authentication.login');
+Route::get('forget-password', 'Auth\ForgotPasswordController@showLinkRequestForm')->name('forget-password');
+Route::post('forget-password',  'Auth\ForgotPasswordController@submitForgetPasswordForm')->name('forget.password.post'); 
+Route::get('reset-password/{token}', 'Auth\ResetPasswordController@showResetPasswordForm')->name('reset.password.get');
+Route::post('reset-password','Auth\ResetPasswordController@submitResetPasswordForm')->name('reset.password.post');
 
 Route::group(['middleware' =>  ['web', 'LoginMiddleware','PermissionsMiddleware']], function () {
 
