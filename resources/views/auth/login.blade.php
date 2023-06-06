@@ -74,7 +74,7 @@
                                     Login
                                 </button>
                                 <div class="text-center mt-2">
-                                    <a href="#" class="default-color">Password reset</a>
+                                    <a href="{{route('forget-password')}}" class="tiny-text">Reset your password</a>
                                 </div>
                             </div>
                         </div>
